@@ -14,19 +14,12 @@
       arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;" 
       renderer="logarithmicDepthBuffer: true;"
     >
-      <!-- Text Label at the specified location -->
-      <a-text
-        value="Muzium Penang"
-        look-at="[gps-camera]"
-        scale="100 100 100"
-        gps-entity-place="latitude: 5.420418; longitude: 100.338833;"
-      ></a-text>
 
       <!-- 3D Model placed at the exact GPS location -->
       <a-entity
         gps-entity-place="latitude: 5.420418; longitude: 100.338833;"
         gltf-model="Muzium_Penang.glb"
-        scale="10 10 10"
+        scale="20 20 20"
         rotation="0 180 0"
       ></a-entity>
 
